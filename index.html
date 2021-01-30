@@ -123,6 +123,7 @@
 
 
         // First Class Boooking
+        //increment
         document.getElementById('increment').addEventListener("click", function () {
             var addIncrement = document.getElementById('increment-count').value;
             var incrementNumber = parseInt(addIncrement);
@@ -143,6 +144,7 @@
             document.getElementById('increment-count').value = totalincrement;
         });
 
+        //decrement
         document.getElementById('decrement').addEventListener("click", function () {
             var addDecrement = document.getElementById('increment-count').value;
             var decrementNumber = parseInt(addDecrement);
@@ -167,6 +169,8 @@
 
 
         // Economy Booking
+
+        //increment
         document.getElementById('e-increment').addEventListener("click", function () {
             var addIncrement = document.getElementById('e-increment-count').value;
             var incrementNumber = parseInt(addIncrement);
@@ -188,7 +192,8 @@
 
             document.getElementById('e-increment-count').value = totalincrement;
         });
-
+        
+        //decrement
         document.getElementById('e-decrement').addEventListener("click", function () {
             var addDecrement = document.getElementById('e-increment-count').value;
             var decrementNumber = parseInt(addDecrement);
@@ -209,8 +214,9 @@
 
 
             document.getElementById('e-increment-count').value = totaldecrement;
-        })
-
+        });
+        
+        //booking
         var booking = document.getElementById('booking');
         booking.addEventListener("click", function () {
 
@@ -220,10 +226,7 @@
             var hidemsg = document.getElementById('hide');
             hidemsg.style.display = "none";
             
-           
-
-
-        });
+            });
     </script>
 </body>
 
