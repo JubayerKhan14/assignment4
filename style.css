@@ -130,7 +130,8 @@ nav ul li a:hover, a.active{
     display:none;
     width:500px;
     height:100px;
-    background-color: black;
+    background-color: purple;
+    border-radius: 8px;
 }
 h1{
     padding-top: 20px;
